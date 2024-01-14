@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: #fec107;
+    padding: 0 10px;
+}
+
+
+.wrapper{
+    width: 400%;
+    max-width: 500px;
+    background: whitesmoke;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #fec107;
+    text-transform: uppercase;
+}
+
+.wrapper.from {
+    width: 100%;
+} 
+
+.input-field {
+    margin-bottom: 15px;
+    display: flex;
+    text-align: center;
+}
+
+.input-field label {
+    width: 200px;
+    color:black;
+    margin-right: 10px;
+    font-size: 15px;
+
+}
+
+.input-field input
+.input-field textarea {
+    width: 100%;
+    outline: none;
+    border: 3px solid #d5dbd9;
+    font-size: 15px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    transition: all 0.5 ease;
+}
+
+.input-field textarea {
+    resize: none;
+    height: 100px;
+}
+
+.input-field select {
+    width: 100px;
+    position: relative;
+    height: 30px;
+}
+
+.input-field p {
+    font-size: 14px;
+    color: #757575;
+}
+
+.input-field .check {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.input-field .button {
+    width: 100%;
+    padding: 8px;
+    font-size: 15px;
+    background-color: #fec107;
+    color: black;
+    cursor: pointer;
+}
+
+.input-field .button:hover {
+    background: #ffd658;
+}
